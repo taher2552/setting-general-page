@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* general css starts */
+  
+  select,
+  input {
+    outline: none;
+  }
+
+  .setting-general-font {
+    color: #1e2224;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02563rem;
+    text-transform: capitalize;
+  }
+
+  button {
+    cursor: pointer;
+  }
+  
+  input:focus {
+    border: 1px solid rgb(127, 126, 126);
+  }
+
+
+  .general-setting-container {
+    width: 75rem;
+    height: 56.81rem;
+    border: 1px solid red;
+    float: right;
+  }
+  
+  

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>setting general page</title>
+    <title>setting genral page</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
@@ -12,7 +12,76 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="general-setting-container">
+    <section class="genral-setting-container genral-setting-fonts">
+        <p class="genral-heading">genral</p>
+
+        <div class="genral-setting-btn genral-setting-fonts">
+            <button class="genral-btn">Profile</button>
+            <button class="genral-btn genral-active">Email Sync</button>
+            <button class="genral-btn">Contact Sync</button>
+        </div>
+
+        <div class="genral-user genral-setting-fonts">
+            <p>Profile Image</p>
+            <div class="genral-image">
+                <img src="svg/genral-user.svg" alt="">
+            </div>
+        </div>
+
+        <div class="genral-setting-form genral-setting-fonts">
+            <form action="">
+                <div class="genral-form-division">
+                    <div class="genral-form-section1">
+                        <div class="genral-form-fields">
+                            <label for="">First Name</label>
+                            <input type="text" class="genral-form-input genral-setting-fonts" value="Vaneet">
+                        </div>
+
+                        <div class="genral-form-fields">
+                            <label for="">Last Name</label>
+                            <input type="text" class="genral-form-input genral-setting-fonts" value="Gupta">
+                        </div>
+
+                        <div class="genral-form-fields">
+                            <label for="">Email</label>
+                            <input type="email" class="genral-form-input genral-setting-fonts" value="vaneetgupta@gmail.com">
+                        </div>
+
+                        <div class="genral-form-fields">
+                            <label for="">Timezone</label>
+                            <select name="" id="" class="genral-form-select genral-setting-fonts genral-timezone">
+                                <option value="">(+05:30) asia/kolkata</option>
+                            </select>
+                            <p class="timezone-note">Timezone is updated automatically to match your computer timezone</p>
+                        </div>
+
+                        <div class="genral-form-fields">
+                            <label for="" class="genral-language">Language</label>
+                            <select name="" id="" class="genral-form-select genral-setting-fonts genral-timezone">
+                                <option value="">English</option>
+                            </select>
+                        </div>
+
+                        <div class="genral-form-fields">
+                            <label for="" class="genral-language">date, time/number format </label>
+                            <select name="" id="" class="genral-form-select genral-setting-fonts genral-timezone">
+                                <option value="">english (united kingdom) </option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="genral-form-section2">
+                        <div class="genral-form-fields">
+                            <label for="" class="genral-language">Currency </label>
+                            <select name="" id="" class="genral-form-select genral-setting-fonts genral-timezone">
+                                <option value="">USD (US dollars) </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
 
     </section>
 </body>
